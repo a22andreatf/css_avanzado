@@ -1,0 +1,431 @@
+/*Añadimos fuentes*/
+@font-face {
+    font-family: 'Tox';
+    src: url('../font/Tox\ Typewriter.ttf')
+}
+
+/*Importamos una fuente de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+
+
+body {
+    margin: 7px;
+    padding: 2px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Tox';
+    font-size: 700%;
+    margin: auto;
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+    width: 60%;
+    border-radius: 1rem;
+    background-image: url(../plugins/imagenes/intro/drama-green-mile-wallpaper.jpg);
+    background-size: cover;
+}
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.memu ul {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.row li a {
+    /*En un bloque*/
+    display: flex;
+    /*Ponemos la letra de color blanco*/
+    color: white;
+    /*Centramos la letra*/
+    flex-wrap: nowrap;
+    justify-content: end;
+    padding: 15px 50px;
+    /*Para quitarle el subrayado*/
+    text-decoration: none;
+    /*Crea una transición*/
+    transition: all 0.3s ease-in-out;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.general {
+    background-image: linear-gradient(120deg, #ffffff 10%, #f29f5b 100%);
+    margin: 3%;
+    border-left: 5px solid #f29f5b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 1rem;
+}
+
+.descripcion {
+    display: flex;
+    margin: 3%;
+}
+
+.descripcion p {
+    margin-left: 2%;
+    padding: 2%;
+    border: solid rgb(235, 170, 109);
+
+}
+
+/*Poner eso en las imagenes como clase para que cuando le pongas encima la flecha se agrande*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.section,
+h2 {
+    background-color: rgb(235, 170, 109);
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.director {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.director2 {
+    margin: 3%;
+}
+
+.director img {
+    border: solid 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.scroller-center {
+    padding: 0;
+    margin: 10px;
+    width: 100%;    
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+
+.scroller {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    width: 250px;
+    width: 200px;
+    margin: 2px;
+}
+
+.scroller img {
+    flex: 0 0 100%;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    border: 4px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+    background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #ffffff 50%, rgb(231, 125, 83) 75%, #dd7f5c 100%);
+    z-index: -1;
+}
+
+.j {
+    padding: 2%;
+    margin:5%
+}
+
+
+#plataformasdeStreaming {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: rgb(235, 170, 109);
+}
+
+table,
+th,
+td {
+    /*Margen exterior en la tabla*/
+    margin: 2px;
+    /*Margen interior en la tabla, para añadir separación entre los elemntos*/
+    padding: 10px;
+    /*Formato de las cedas, filas y columnas*/
+    table-layout: auto;
+    /*Posición del título respecto de la tabla*/
+    caption-side: top;
+    /*Espacio entre los bordes de las celdas adyacentes*/
+    border-spacing: 2px;
+    /*Selección del modelo de los bordes*/
+    border-collapse: collapse;
+    /*Para justificar el texto*/
+    text-align: center;
+    empty-cells: hide;
+}
+
+table {
+    /*Google font*/
+    font-family: 'Prompt', sans-serif;
+    /*Tamño*/
+    width: 100%;
+    /*La centramos*/
+    justify-content: center;
+
+}
+
+tbody {
+    /*Redondeamos el borde*/
+    border-radius: 2px;
+}
+
+th {
+    /*Largo*/
+    height: 70px;
+
+}
+
+th,
+td {
+    /*Ponemos solo borde al final der cada fila*/
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    /*Al pasar el cursor, con la subclase hover hacemos que se ilumine*/
+    background-color: rgba(255, 166, 0, 0.338);
+}
+
+/* Atributos del formulario */
+form {
+    /*Google font*/
+    font-family: 'Prompt', sans-serif;
+    /*Opacidad*/
+    opacity: .95;
+    /*Tamaño*/
+    width: 600px;
+    /**/
+    height: auto;
+    /*Redondeamos el form*/
+    border-radius: 5px;
+    /*Margen automático*/
+    margin: 5% auto;
+    /*Añadimos una sombra por debajo*/
+    box-shadow: 0 9px 50px hsla(30, 2%, 19%, 0.31);
+    /*Espacio entre los elementos*/
+    padding: 1rem;
+    /*Como fondo ponemos un degradado*/
+    background-image: linear-gradient(-60deg, #ffffff 10%, #f29f5b 100%);
+
+
+}
+
+form div {
+    /*Espacio interior entre divs*/
+    padding: 2%;
+}
+
+.form2 div {
+    /*Lo hacemos responsive*/
+    display: flex;
+    /*Lo centramos horizontalmente y verticalmente en el div con estas dos propiedades de flexbox*/
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: none;
+    /*Para que cuando pasemos el cursor aparezca la mano*/
+    cursor: pointer;
+    padding: 1rem;
+}
+
+
+
+.column {
+    /*Para que aparezcan en linea*/
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    /*Ajustamos el máximo y el mínimo de tamaño*/
+    min-width: 95%;
+    max-width: 120%;
+    padding: 5rem;
+    height: 200px;
+    box-sizing: border-box;
+    /*Redondeamos el borde*/
+    border-radius: 1rem;
+    /*Color de fondo blanco*/
+    background-color: #f8f8f8;
+    /*Para que cuando pasemos el cursor aparezca la mano*/
+    cursor: pointer;
+    /*Quitamos el borde*/
+    border: none;
+}
+
+select {
+    width: 70%;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.sex div {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+
+}
+
+/*Botones*/
+.form3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%
+}
+
+.reset-button {
+    color: rgb(0, 0, 0);
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: #fff;
+    transition: 0.2s;
+    margin: 20px;
+}
+  
+.reset-button:hover {
+    color: #c04113;
+    transform: translate(-0.25rem,-0.25rem);
+    background: #fff;
+    box-shadow: 0.25rem 0.25rem;
+}
+  
+.reset-button:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+.submit-button {
+    color: rgb(0,0,0);
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: #fff;
+    transition: 0.2s;
+    margin: 20px;
+}
+  
+.submit-button:hover {
+    color: greenyellow;
+    transform: translate(-0.25rem,-0.25rem);
+    background: #fff;
+    box-shadow: 0.25rem 0.25rem;
+  }
+  
+.submit-button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+.media3 {
+    margin: auto;
+    width: 100vh;
+    height: 75vh;
+    display: grid;
+    grid-auto-columns: auto;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 2vh;
+    -moz-border-radius:2vh;
+}
+
+.media3 img {
+    scroll-snap-align: start;
+    object-fit: cover;
+    width: 100vh;
+    height: 75vh;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video:hover {
+    transform: scale(1.05);
+}
+
+.the-simpson {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.videoSimpson {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
