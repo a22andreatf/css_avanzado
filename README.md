@@ -4,29 +4,14 @@ Trabajo avanzado de css. Lenguaje de Marcas
   
   ##Índice
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
+*[Pagina original](#Página_con_html)
 
-*[Insignias](#insignias)
+*[Página añadiendo css](#Página_con_css)
 
-*[Índice](#índice)
+*[Plantilla responsive base](#índice)
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+*[Plantilla responsive modificada](#)
 
-*[Estado del proyecto](#Estado-del-proyecto)
-
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
   ## :hammer:Funcionalidades del proyecto
 
 - `Funcionalidad 1`: descripción de la funcionalidad 1
