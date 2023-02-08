@@ -1,7 +1,6 @@
 # css_avanzado
 Trabajo avanzado de css. Lenguaje de Marcas
-<em> # Su título aquí </em>
-  
+ 
   ##Índice
 
 *[Pagina original](#Página_con_html)
