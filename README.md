@@ -10,3 +10,5 @@ Trabajo avanzado de css. Lenguaje de Marcas
 -[Versión 2.1 plantilla responsive base](https://a22andreatf.github.io/css_avanzado/v2.1/)
 
 -[Versión 2.2 plantilla responsive modificada](https://a22andreatf.github.io/css_avanzado/v2.2/)
+
+-[Versión 2.2 plantilla responsive modificada](https://a22andreatf.github.io/css_avanzado/v3/)
