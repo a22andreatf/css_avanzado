@@ -1,19 +1,12 @@
 # css_avanzado
 Trabajo avanzado de css. Lenguaje de Marcas
  
-  ##Índice
+   ## :hammer:Índice
 
--[Pagina original](https://a22andreatf.github.io/css_avanzado/v0/)
+-[Versión 0](https://a22andreatf.github.io/css_avanzado/v0/)
 
--[Página añadiendo css](#Página_con_css)
+-[Versión 1 añadiendo css](https://a22andreatf.github.io/css_avanzado/v1/)
 
--[Plantilla responsive base](#índice)
+-[Versión 2.1 plantilla responsive base](https://a22andreatf.github.io/css_avanzado/v2.1/)
 
--[Plantilla responsive modificada](#)
-
-  ## :hammer:Funcionalidades del proyecto
-
-- `Funcionalidad 1`: descripción de la funcionalidad 1
-- `Funcionalidad 2`: descripción de la funcionalidad 2
-- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
-- `Funcionalidad 3`: descripción de la funcionalidad 3
+-[Versión 2.2 plantilla responsive modificada](https://a22andreatf.github.io/css_avanzado/v2.2/)
