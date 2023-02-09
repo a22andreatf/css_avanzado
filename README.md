@@ -21,10 +21,10 @@ Trabajo avanzado de css. Lenguaje de Marcas
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
 
 
-Propiedades {
-    margin: ;
-    padding: ;
-    scroll-behavior: smooth;
+-Propiedades {
+    -margin: ;
+    -padding: ;
+    -scroll-behavior: smooth;
     font-family: ' ';
     font-size: ;
     width: ;
