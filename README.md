@@ -18,76 +18,76 @@ Trabajo avanzado de css. Lenguaje de Marcas
 #Propiedades brevemente explicadas del v1
 
 
--@font-face: permite añadir fuentes personalizadas a una página web.
+1 @font-face: permite añadir fuentes personalizadas a una página web.
 
--@import: permite importar una fuente de Google Fonts a una página web.
+2 @import: permite importar una fuente de Google Fonts a una página web.
 
--font-family: establece la familia de fuentes de un elemento.
+3 font-family: establece la familia de fuentes de un elemento.
 
--font-size: establece el tamaño de la fuente de un elemento.
+4 font-size: establece el tamaño de la fuente de un elemento.
 
--margin: establece el margen exterior de un elemento.
+5 margin: establece el margen exterior de un elemento.
 
--padding: establece el margen interior de un elemento.
+6 padding: establece el margen interior de un elemento.
 
--width: establece el ancho de un elemento.
+7 width: establece el ancho de un elemento.
 
--height: establece la altura de un elemento.
+8 height: establece la altura de un elemento.
 
--border-radius: establece el radio de un borde redondeado en un elemento.
+9 border-radius: establece el radio de un borde redondeado en un elemento.
 
--border: establece el borde de un elemento.
+10 border: establece el borde de un elemento.
 
--list-style-type: establece el estilo de una lista.
+11 list-style-type: establece el estilo de una lista.
 
--background-image: establece una imagen de fondo en un elemento.
+12 background-image: establece una imagen de fondo en un elemento.
 
--background-size: establece el tamaño de una imagen de fondo en un elemento.
+13 background-size: establece el tamaño de una imagen de fondo en un elemento.
 
--background-color: establece el color de fondo en un elemento.
+14 background-color: establece el color de fondo en un elemento.
 
--background-image: linear-gradient(50deg, #ffffff 10%, #fff 0%%); permite crear un degradao en el fondo.
+15 background-image: linear-gradient(50deg, #ffffff 10%, #fff 0%%); permite crear un degradao en el fondo.
 
--color: establece el color de la fuente en un elemento.
+16 color: establece el color de la fuente en un elemento.
 
--text-decoration: establece la decoración de un texto.
+17 text-decoration: establece la decoración de un texto.
 
--transition: establece una transición en un elemento.
+18 transition: establece una transición en un elemento.
 
--scroll-behavior: permite establecer un comportamiento suave al desplazarse por una página web.
+19 scroll-behavior: permite establecer un comportamiento suave al desplazarse por una página web.
 
--z-index: establece la profundidad de un elemento en una página web.
+20 z-index: establece la profundidad de un elemento en una página web.
 
--box-shadow: establece una sombra en un elemento.
+21 box-shadow: establece una sombra en un elemento.
 
--flex: establece la flexibilidad de un elemento en un contenedor FlexBox.
+22 flex: establece la flexibilidad de un elemento en un contenedor FlexBox.
 
--object-fit: establece el ajuste de un objeto en un contenedor.
+23 object-fit: establece el ajuste de un objeto en un contenedor.
 
--cursor: pointer; para que cuando pasemos el cursor aparezca la mano.
+24 cursor: pointer; para que cuando pasemos el cursor aparezca la mano.
 
--scroll-snap-align: establece la alineación de una imagen o elemento mientras se desplaza.
+25 scroll-snap-align: establece la alineación de una imagen o elemento mientras se desplaza.
 
--overflow-x: establece el comportamiento de desbordamiento en el eje x de un elemento.
+26 overflow-x: establece el comportamiento de desbordamiento en el eje x de un elemento.
 
--display: establece el tipo de visualización de un elemento.
+27 display: establece el tipo de visualización de un elemento.
 
--align-items: establece la alineación de los elementos hijos en un contenedor FlexBox.
+28 align-items: establece la alineación de los elementos hijos en un contenedor FlexBox.
 
--justify-content: establece la justificación del contenido en un contenedor FlexBox.
+29 justify-content: establece la justificación del contenido en un contenedor FlexBox.
 
--grid-auto-columns: establece el número de columnas automáticas en un contenedor de cuadrícula.
+30 grid-auto-columns: establece el número de columnas automáticas en un contenedor de cuadrícula.
 
--overflow: establece el comportamiento de desbordamiento en un elemento.
+31 overflow: establece el comportamiento de desbordamiento en un elemento.
 
--position: establece la posición de un elemento en una página web.
+32 position: establece la posición de un elemento en una página web.
 
--opacity: establece la opacidad de un elemento.
+33 opacity: establece la opacidad de un elemento.
 
--scroll-snap-align: es una propiedad CSS que define cómo se deben ajustar los elementos contenidos dentro de un contenedor que tiene habilitado el desplazamiento (scroll). "start" significa que los elementos se ajustarán al comienzo del contenedor de desplazamiento.
+34 scroll-snap-align: es una propiedad CSS que define cómo se deben ajustar los elementos contenidos dentro de un contenedor que tiene habilitado el desplazamiento (scroll). "start" significa que los elementos se ajustarán al comienzo del contenedor de desplazamiento.
 
--scroll-snap-type: es una propiedad que define la forma en que los elementos deben ajustarse dentro de un contenedor con desplazamiento. "y mandatory" significa que los elementos deben ajustarse en el eje vertical y que esta acción es obligatoria.
+35 scroll-snap-type: es una propiedad que define la forma en que los elementos deben ajustarse dentro de un contenedor con desplazamiento. "y mandatory" significa que los elementos deben ajustarse en el eje vertical y que esta acción es obligatoria.
 
--overflow-x: es una propiedad que determina cómo se debe manejar el contenido que se desborda del elemento en el eje horizontal. "hidden" significa que el contenido que se desborda del elemento estará oculto y no será visible.
+36 overflow-x: es una propiedad que determina cómo se debe manejar el contenido que se desborda del elemento en el eje horizontal. "hidden" significa que el contenido que se desborda del elemento estará oculto y no será visible.
 
--overflow-y: es una propiedad que determina cómo se debe manejar el contenido que se desborda del elemento en el eje vertical. "scroll" significa que se mostrará una barra de desplazamiento en el eje vertical para permitir al usuario desplazarse por el contenido que se desborda del elemento.
+37 overflow-y: es una propiedad que determina cómo se debe manejar el contenido que se desborda del elemento en el eje vertical. "scroll" significa que se mostrará una barra de desplazamiento en el eje vertical para permitir al usuario desplazarse por el contenido que se desborda del elemento.
