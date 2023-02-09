@@ -3,7 +3,7 @@ Trabajo avanzado de css. Lenguaje de Marcas
  
   ##Índice
 
-*[Pagina original](#Página_con_html)
+*[Pagina original](#inex.html)
 
 *[Página añadiendo css](#Página_con_css)
 
