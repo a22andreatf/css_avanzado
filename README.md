@@ -13,6 +13,7 @@ Trabajo avanzado de css. Lenguaje de Marcas
 
 -[Versión 3 añadiendo bootstrap](https://a22andreatf.github.io/css_avanzado/v3/)
 
+-[Esquema de la página y las propiedades Flexbox y GridLayout usadas](https://a22andreatf.github.io/css_avanzado/draw_css.drawio.pdf)
 
 
 #Propiedades brevemente explicadas del v1
