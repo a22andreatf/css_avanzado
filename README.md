@@ -17,14 +17,14 @@ Trabajo avanzado de css. Lenguaje de Marcas
 @font-face {
 }
 
-/*Importamos una fuente de google fonts*/
+*Importamos una fuente de google fonts
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
 
 
 -Propiedades {
-    -margin: ;
-    -padding: ;
-    -scroll-behavior: smooth;
+    margin: ;
+    padding: ;
+    scroll-behavior: smooth;
     font-family: ' ';
     font-size: ;
     width: ;
