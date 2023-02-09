@@ -3,13 +3,13 @@ Trabajo avanzado de css. Lenguaje de Marcas
  
   ##Índice
 
-*[Pagina original](#inex.html)
+-[Pagina original](https://a22andreatf.github.io/css_avanzado/v0/)
 
-*[Página añadiendo css](#Página_con_css)
+-[Página añadiendo css](#Página_con_css)
 
-*[Plantilla responsive base](#índice)
+-[Plantilla responsive base](#índice)
 
-*[Plantilla responsive modificada](#)
+-[Plantilla responsive modificada](#)
 
   ## :hammer:Funcionalidades del proyecto
 
